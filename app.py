@@ -6,6 +6,8 @@ Run with: streamlit run app.py
 import streamlit as st
 import config
 import data_fetchers as fetch
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 IST = ZoneInfo("Asia/Kolkata")
 
@@ -147,7 +149,7 @@ with st.sidebar:
 # ================= TOP TICKER STRIP =================
 ticker_row = load("top_ticker")
 strip_html = f'<div class="ticker-strip"><span class="status-badge"><span class="status-dot"></span>MARKET OPEN</span>' \
-             f'<span class="ticker-item" style="color:#666">{datetime.now().strftime("%H:%M:%S")} IST</span>'
+             f'<span class="ticker-item" style="color:#666">{datetime.now(IST).strftime("%H:%M:%S")} IST</span>'
 for t in ticker_row:
     strip_html += f'<span class="ticker-item"><b style="color:#ff9900">{t["label"].upper()}</b> <span style="color:#fff">{fmt_price(t["price"])}</span> <span class="{cls(t["change_pct"])}">{fmt_pct(t["change_pct"])}</span></span>'
 strip_html += "</div>"
