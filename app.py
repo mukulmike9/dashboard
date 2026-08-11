@@ -6,7 +6,6 @@ Run with: streamlit run app.py
 import streamlit as st
 import config
 import data_fetchers as fetch
-from datetime import datetime
 
 IST = ZoneInfo("Asia/Kolkata")
 
