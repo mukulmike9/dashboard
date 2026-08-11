@@ -1,8 +1,7 @@
 # Markets Analysis Dashboard
 
-Personal markets dashboard built Using Python with Streamlit. Tracks global/India indices,
-watchlist, sector heatmap, gainers/losers — free data via yfinance.
-
+Personalized markets dashboard built Using Python with Streamlit. Tracks global/India indices,
+watchlist, sector heatmap, gainers/losers — free data via yfinance. Realtime data update may be slower than than paid api features.
 ## Setup
 
 ```
