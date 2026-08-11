@@ -40,3 +40,8 @@ key respectively — not available through a simple free API.
 Edit `config.py`: `WATCHLIST`, `SECTOR_MAP`, `GLOBAL_MARKETS`, `INDIA_MARKETS`,
 `MARKET_PULSE`, `REFRESH_SECONDS`. Tickers use Yahoo Finance format — Indian
 stocks need `.NS` suffix, indices start with `^`.
+
+**PREVIEW** :
+
+<img width="1325" height="634" alt="image" src="https://github.com/user-attachments/assets/a9e4f11c-b291-45b4-be50-3dc76bc00dbe" />
+
