@@ -8,6 +8,8 @@ import config
 import data_fetchers as fetch
 from datetime import datetime
 
+IST = ZoneInfo("Asia/Kolkata")
+
 st.set_page_config(page_title="Markets Terminal", layout="wide", initial_sidebar_state="expanded")
 
 # ---------------- Bloomberg-terminal styling ----------------
