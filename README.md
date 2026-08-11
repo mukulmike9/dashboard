@@ -9,8 +9,9 @@ Uses free market data from yfinance. Data refresh and real-time availability may
 pip install -r requirements.txt
 streamlit run app.py
 ```
+Opens at http://localhost:8501.
 
-## Deployment on (Streamlit Cloud, free)
+## Deploy (Streamlit Cloud, free)
 
 URL. https://dashboard-euxvyfyw9fabtday7pnug3.streamlit.app/
 
